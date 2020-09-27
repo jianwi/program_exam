@@ -15,6 +15,6 @@ fun.beforeFun = function(fn)
 }
 
 //  先计算beforFun ，后计算fun
-console.log(fun.beforeFun(before_fun)(2))
+console.log(fun.beforeFun(before_fun)(2)) // 8
 
 // 括号后面写括号，肯定返回了个函数。。。
